@@ -1,0 +1,28 @@
+.wrapper-form-login{
+  
+    background-color: #dde5f4 ;
+  
+
+}
+.content_login{
+    height: 400px;width: 325px ; 
+    background-color: #f1f7fe ; 
+    color: black ; 
+    margin : 0 auto ; 
+    padding : 20px 0  0 10px ;
+    
+}
+input[type='text'] ,input[type='password'] {
+    width:300px; height: 77px;
+    margin-top : 5px;
+    border-radius:20px;
+    border : none;
+    background-color: white;
+}
+input[type='submit']{
+    margin-top : 30px;
+    border-radius:20px;
+    background-color: hsl(233,36%,38%);
+    width:300px; height: 46px;
+    color: white;
+} 

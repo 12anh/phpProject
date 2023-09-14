@@ -1,0 +1,56 @@
+body{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 23px;
+}
+#wrapper{
+   width:100%
+    
+}
+#header , #footer{
+    background-color: rgba(24, 24, 185, 0.28) 
+}
+/* ------------- multi header ------------ */
+#header.mod-product{
+    background-color: orange;
+}
+
+
+ul#main-menu{
+   
+    display: flex ; justify-content: center;
+
+}
+ul#main-menu li {
+  
+    list-style: none;
+    padding : 10px 15px;
+}
+ul#main-menu li  a {
+    text-decoration: none;
+    color: white;
+}
+#content{
+    min-height: 600px;
+    padding: 20px 0 ;
+}
+#footer{
+color: white;
+}
+
+/* +++++++++++++++ */
+.content{
+    width : 80% ; 
+    margin: 0 auto;
+    display: grid;
+    background-color: bisque;
+    color: black;
+     grid-template-columns: repeat(1fr);
+  grid-gap: 0 10px;
+}
+ p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
